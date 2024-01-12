@@ -1,0 +1,30 @@
+html{
+    background: black;
+}
+
+@font-face {
+    font-family: Game;
+    src: url(prstart.ttf);
+}
+
+h1{
+    font-family: Game;
+    text-shadow: .4rem .4rem #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h2{
+    font-family: Game;
+    text-shadow: .4rem .4rem #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-align: center;
+}
